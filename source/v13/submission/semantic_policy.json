@@ -1,0 +1,9 @@
+{
+  "accepted_families": [
+    "count_restriction",
+    "entity_name",
+    "join_key"
+  ],
+  "source": "official train only",
+  "train_bank_sha256": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65"
+}

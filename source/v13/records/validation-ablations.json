@@ -1,0 +1,14 @@
+[
+  {
+    "mode": "raw-likelihood",
+    "correct": 100,
+    "changed_final_sql": 69,
+    "control": "identical actual paid SQL/feedback and neural forward scores; only free final selection changes"
+  },
+  {
+    "mode": "no-switch-margin",
+    "correct": 102,
+    "changed_final_sql": 11,
+    "control": "identical actual paid SQL/feedback and neural forward scores; only free final selection changes"
+  }
+]

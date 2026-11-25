@@ -1,0 +1,13 @@
+{
+  "train_bank": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65",
+  "weights": {
+    "all": {
+      "aligned_projection": 0.76378,
+      "numeric_boundary": 0.41589,
+      "quoted_filter": 0.57331
+    },
+    "empty": {
+      "aligned_projection": 0.59912
+    }
+  }
+}

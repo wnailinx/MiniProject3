@@ -1,0 +1,1665 @@
+{
+  "skills": {
+    "binding": {
+      "applicability": "Missing table or column",
+      "contexts": {
+        "column": {
+          "attempts": 379,
+          "correct": 33,
+          "failed": 346,
+          "improved": 33,
+          "positive_terminal_trajectories": 22,
+          "regressed": 0,
+          "toward_gold_structure": 41
+        },
+        "table": {
+          "attempts": 9,
+          "correct": 2,
+          "failed": 7,
+          "improved": 2,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 388,
+        "correct": 35,
+        "failed": 353,
+        "improved": 35,
+        "positive_terminal_trajectories": 22,
+        "regressed": 0,
+        "toward_gold_structure": 41
+      },
+      "parameterized_operation_and_bindings": "Resolve names in scope or connect a uniquely owning table using a declared FK path",
+      "risk": "Similar names can refer to unrelated attributes",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "boundary": {
+      "applicability": "The question explicitly gives a numeric boundary",
+      "contexts": {
+        "aligned": {
+          "attempts": 23,
+          "correct": 0,
+          "failed": 23,
+          "improved": 0,
+          "positive_terminal_trajectories": 6,
+          "regressed": 13,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 7,
+          "correct": 0,
+          "failed": 7,
+          "improved": 0,
+          "positive_terminal_trajectories": 4,
+          "regressed": 7,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 23,
+        "correct": 0,
+        "failed": 23,
+        "improved": 0,
+        "positive_terminal_trajectories": 6,
+        "regressed": 13,
+        "toward_gold_structure": 0
+      },
+      "parameterized_operation_and_bindings": "Change matching numeric comparison",
+      "risk": "Equal literals can occur in unrelated predicates",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "compact": {
+      "applicability": "Unused joined tables or gratuitous conditions",
+      "contexts": {
+        "aligned": {
+          "attempts": 285,
+          "correct": 93,
+          "failed": 192,
+          "improved": 43,
+          "positive_terminal_trajectories": 83,
+          "regressed": 80,
+          "toward_gold_structure": 81
+        },
+        "arity": {
+          "attempts": 5,
+          "correct": 0,
+          "failed": 5,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 2
+        },
+        "column": {
+          "attempts": 25,
+          "correct": 0,
+          "failed": 25,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 9
+        },
+        "different": {
+          "attempts": 34,
+          "correct": 2,
+          "failed": 32,
+          "improved": 2,
+          "positive_terminal_trajectories": 1,
+          "regressed": 5,
+          "toward_gold_structure": 13
+        },
+        "syntax": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "table": {
+          "attempts": 8,
+          "correct": 0,
+          "failed": 8,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 68,
+          "correct": 24,
+          "failed": 44,
+          "improved": 2,
+          "positive_terminal_trajectories": 26,
+          "regressed": 18,
+          "toward_gold_structure": 7
+        },
+        "nonempty": {
+          "attempts": 49,
+          "correct": 35,
+          "failed": 14,
+          "improved": 7,
+          "positive_terminal_trajectories": 21,
+          "regressed": 5,
+          "toward_gold_structure": 21
+        }
+      },
+      "outcomes": {
+        "attempts": 359,
+        "correct": 95,
+        "failed": 264,
+        "improved": 45,
+        "positive_terminal_trajectories": 84,
+        "regressed": 85,
+        "toward_gold_structure": 105
+      },
+      "parameterized_operation_and_bindings": "Remove one unused leaf join or simplify clearly unnecessary constraints",
+      "risk": "An apparently unused join can still filter rows",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "contrast": {
+      "applicability": "Negation, both, or relative comparison",
+      "contexts": {},
+      "matched_parent": {
+        "empty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 0,
+        "correct": 0,
+        "failed": 0,
+        "improved": 0,
+        "positive_terminal_trajectories": 0,
+        "regressed": 0,
+        "toward_gold_structure": 0
+      },
+      "parameterized_operation_and_bindings": "Repair a set operation or a scalar extremum based on explicit wording",
+      "risk": "Cue words are only hypotheses",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "distinct": {
+      "applicability": "Observed or possible duplicates",
+      "contexts": {
+        "aggregate": {
+          "attempts": 8,
+          "correct": 0,
+          "failed": 8,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "aligned": {
+          "attempts": 1653,
+          "correct": 774,
+          "failed": 879,
+          "improved": 36,
+          "positive_terminal_trajectories": 475,
+          "regressed": 119,
+          "toward_gold_structure": 269
+        },
+        "arity": {
+          "attempts": 11,
+          "correct": 0,
+          "failed": 11,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "column": {
+          "attempts": 78,
+          "correct": 0,
+          "failed": 78,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 6
+        },
+        "different": {
+          "attempts": 97,
+          "correct": 16,
+          "failed": 81,
+          "improved": 2,
+          "positive_terminal_trajectories": 4,
+          "regressed": 2,
+          "toward_gold_structure": 8
+        },
+        "syntax": {
+          "attempts": 7,
+          "correct": 0,
+          "failed": 7,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "table": {
+          "attempts": 4,
+          "correct": 0,
+          "failed": 4,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 2
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 749,
+          "correct": 388,
+          "failed": 361,
+          "improved": 8,
+          "positive_terminal_trajectories": 195,
+          "regressed": 22,
+          "toward_gold_structure": 116
+        },
+        "nonempty": {
+          "attempts": 490,
+          "correct": 380,
+          "failed": 110,
+          "improved": 8,
+          "positive_terminal_trajectories": 181,
+          "regressed": 30,
+          "toward_gold_structure": 75
+        }
+      },
+      "outcomes": {
+        "attempts": 1858,
+        "correct": 790,
+        "failed": 1068,
+        "improved": 38,
+        "positive_terminal_trajectories": 480,
+        "regressed": 121,
+        "toward_gold_structure": 285
+      },
+      "parameterized_operation_and_bindings": "Toggle result DISTINCT or count the entity key",
+      "risk": "Some repetitions are intended",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "group": {
+      "applicability": "Grouped count, sum, or frequency requested",
+      "contexts": {
+        "aligned": {
+          "attempts": 74,
+          "correct": 35,
+          "failed": 39,
+          "improved": 19,
+          "positive_terminal_trajectories": 18,
+          "regressed": 1,
+          "toward_gold_structure": 49
+        },
+        "arity": {
+          "attempts": 23,
+          "correct": 5,
+          "failed": 18,
+          "improved": 5,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 19
+        },
+        "column": {
+          "attempts": 34,
+          "correct": 8,
+          "failed": 26,
+          "improved": 8,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 34
+        },
+        "different": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 17,
+          "correct": 15,
+          "failed": 2,
+          "improved": 4,
+          "positive_terminal_trajectories": 9,
+          "regressed": 0,
+          "toward_gold_structure": 8
+        },
+        "nonempty": {
+          "attempts": 23,
+          "correct": 11,
+          "failed": 12,
+          "improved": 6,
+          "positive_terminal_trajectories": 5,
+          "regressed": 0,
+          "toward_gold_structure": 14
+        }
+      },
+      "outcomes": {
+        "attempts": 133,
+        "correct": 48,
+        "failed": 85,
+        "improved": 32,
+        "positive_terminal_trajectories": 21,
+        "regressed": 1,
+        "toward_gold_structure": 102
+      },
+      "parameterized_operation_and_bindings": "Use projected keys and aggregate the appropriate record set",
+      "risk": "Groups may require entity keys or a more specific count",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "hint": {
+      "applicability": "Distinct cached hint not checked",
+      "contexts": {
+        "aggregate": {
+          "attempts": 10,
+          "correct": 10,
+          "failed": 0,
+          "improved": 10,
+          "positive_terminal_trajectories": 10,
+          "regressed": 0,
+          "toward_gold_structure": 4
+        },
+        "aligned": {
+          "attempts": 473,
+          "correct": 335,
+          "failed": 138,
+          "improved": 182,
+          "positive_terminal_trajectories": 316,
+          "regressed": 42,
+          "toward_gold_structure": 183
+        },
+        "arity": {
+          "attempts": 88,
+          "correct": 43,
+          "failed": 45,
+          "improved": 43,
+          "positive_terminal_trajectories": 45,
+          "regressed": 0,
+          "toward_gold_structure": 57
+        },
+        "column": {
+          "attempts": 385,
+          "correct": 248,
+          "failed": 137,
+          "improved": 248,
+          "positive_terminal_trajectories": 254,
+          "regressed": 0,
+          "toward_gold_structure": 199
+        },
+        "different": {
+          "attempts": 144,
+          "correct": 61,
+          "failed": 83,
+          "improved": 44,
+          "positive_terminal_trajectories": 94,
+          "regressed": 4,
+          "toward_gold_structure": 71
+        },
+        "syntax": {
+          "attempts": 32,
+          "correct": 10,
+          "failed": 22,
+          "improved": 10,
+          "positive_terminal_trajectories": 10,
+          "regressed": 0,
+          "toward_gold_structure": 24
+        },
+        "table": {
+          "attempts": 12,
+          "correct": 8,
+          "failed": 4,
+          "improved": 8,
+          "positive_terminal_trajectories": 10,
+          "regressed": 0,
+          "toward_gold_structure": 6
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 145,
+          "correct": 111,
+          "failed": 34,
+          "improved": 49,
+          "positive_terminal_trajectories": 97,
+          "regressed": 8,
+          "toward_gold_structure": 55
+        },
+        "nonempty": {
+          "attempts": 158,
+          "correct": 140,
+          "failed": 18,
+          "improved": 32,
+          "positive_terminal_trajectories": 120,
+          "regressed": 8,
+          "toward_gold_structure": 48
+        }
+      },
+      "outcomes": {
+        "attempts": 1144,
+        "correct": 715,
+        "failed": 429,
+        "improved": 545,
+        "positive_terminal_trajectories": 739,
+        "regressed": 46,
+        "toward_gold_structure": 544
+      },
+      "parameterized_operation_and_bindings": "Switch to an official hint",
+      "risk": "The shared cache may be wrong",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "literal": {
+      "applicability": "String literal is inconsistent with a schema binding",
+      "contexts": {
+        "aggregate": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "aligned": {
+          "attempts": 290,
+          "correct": 18,
+          "failed": 272,
+          "improved": 2,
+          "positive_terminal_trajectories": 39,
+          "regressed": 96,
+          "toward_gold_structure": 0
+        },
+        "arity": {
+          "attempts": 3,
+          "correct": 0,
+          "failed": 3,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "column": {
+          "attempts": 14,
+          "correct": 0,
+          "failed": 14,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "different": {
+          "attempts": 7,
+          "correct": 0,
+          "failed": 7,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "syntax": {
+          "attempts": 1,
+          "correct": 0,
+          "failed": 1,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "table": {
+          "attempts": 6,
+          "correct": 0,
+          "failed": 6,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 239,
+          "correct": 8,
+          "failed": 231,
+          "improved": 2,
+          "positive_terminal_trajectories": 27,
+          "regressed": 90,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 10,
+          "correct": 10,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 323,
+        "correct": 18,
+        "failed": 305,
+        "improved": 2,
+        "positive_terminal_trajectories": 40,
+        "regressed": 96,
+        "toward_gold_structure": 0
+      },
+      "parameterized_operation_and_bindings": "Bind literal to a compatible text field or split a full name",
+      "risk": "An empty result is weak evidence",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "multiplicity": {
+      "applicability": "COUNT arguments or group entity disagree with the request",
+      "contexts": {
+        "aligned": {
+          "attempts": 105,
+          "correct": 67,
+          "failed": 38,
+          "improved": 0,
+          "positive_terminal_trajectories": 39,
+          "regressed": 0,
+          "toward_gold_structure": 45
+        },
+        "arity": {
+          "attempts": 11,
+          "correct": 0,
+          "failed": 11,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "column": {
+          "attempts": 5,
+          "correct": 0,
+          "failed": 5,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 2
+        },
+        "different": {
+          "attempts": 23,
+          "correct": 2,
+          "failed": 21,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 1
+        },
+        "syntax": {
+          "attempts": 5,
+          "correct": 0,
+          "failed": 5,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 78,
+          "correct": 50,
+          "failed": 28,
+          "improved": 0,
+          "positive_terminal_trajectories": 25,
+          "regressed": 0,
+          "toward_gold_structure": 26
+        },
+        "nonempty": {
+          "attempts": 19,
+          "correct": 19,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 13,
+          "regressed": 0,
+          "toward_gold_structure": 7
+        }
+      },
+      "outcomes": {
+        "attempts": 149,
+        "correct": 69,
+        "failed": 80,
+        "improved": 0,
+        "positive_terminal_trajectories": 39,
+        "regressed": 0,
+        "toward_gold_structure": 48
+      },
+      "parameterized_operation_and_bindings": "Choose row count when the request counts records; bind the grouped entity to a source key",
+      "risk": "NULL and duplicate treatments depend on the requested entity",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "order": {
+      "applicability": "Explicit ranking or sorting cue",
+      "contexts": {
+        "aligned": {
+          "attempts": 77,
+          "correct": 29,
+          "failed": 48,
+          "improved": 7,
+          "positive_terminal_trajectories": 11,
+          "regressed": 0,
+          "toward_gold_structure": 50
+        },
+        "arity": {
+          "attempts": 4,
+          "correct": 0,
+          "failed": 4,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "column": {
+          "attempts": 12,
+          "correct": 0,
+          "failed": 12,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 2
+        },
+        "syntax": {
+          "attempts": 5,
+          "correct": 0,
+          "failed": 5,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 5
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 18,
+          "correct": 9,
+          "failed": 9,
+          "improved": 0,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 18
+        },
+        "nonempty": {
+          "attempts": 15,
+          "correct": 13,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 6,
+          "regressed": 0,
+          "toward_gold_structure": 8
+        }
+      },
+      "outcomes": {
+        "attempts": 98,
+        "correct": 29,
+        "failed": 69,
+        "improved": 7,
+        "positive_terminal_trajectories": 12,
+        "regressed": 0,
+        "toward_gold_structure": 57
+      },
+      "parameterized_operation_and_bindings": "Change the existing ORDER BY or requested limit",
+      "risk": "Ranking references can be ambiguous",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "predicate": {
+      "applicability": "Explicit exclusion, string filter, or quantified comparison",
+      "contexts": {
+        "aggregate": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "aligned": {
+          "attempts": 687,
+          "correct": 112,
+          "failed": 575,
+          "improved": 36,
+          "positive_terminal_trajectories": 263,
+          "regressed": 259,
+          "toward_gold_structure": 7
+        },
+        "arity": {
+          "attempts": 13,
+          "correct": 0,
+          "failed": 13,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "column": {
+          "attempts": 45,
+          "correct": 0,
+          "failed": 45,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "different": {
+          "attempts": 41,
+          "correct": 2,
+          "failed": 39,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 6,
+          "toward_gold_structure": 0
+        },
+        "syntax": {
+          "attempts": 6,
+          "correct": 0,
+          "failed": 6,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "table": {
+          "attempts": 3,
+          "correct": 0,
+          "failed": 3,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 354,
+          "correct": 60,
+          "failed": 294,
+          "improved": 13,
+          "positive_terminal_trajectories": 118,
+          "regressed": 136,
+          "toward_gold_structure": 5
+        },
+        "nonempty": {
+          "attempts": 77,
+          "correct": 36,
+          "failed": 41,
+          "improved": 5,
+          "positive_terminal_trajectories": 37,
+          "regressed": 14,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 797,
+        "correct": 114,
+        "failed": 683,
+        "improved": 36,
+        "positive_terminal_trajectories": 264,
+        "regressed": 265,
+        "toward_gold_structure": 7
+      },
+      "parameterized_operation_and_bindings": "Bind operators, literal spelling, and correlated keys in the existing condition",
+      "risk": "Case, nulls and quantifiers affect equivalence",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "probe": {
+      "applicability": "Joined count remains unresolved",
+      "contexts": {
+        "aligned": {
+          "attempts": 18,
+          "correct": 0,
+          "failed": 18,
+          "improved": 0,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "arity": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "different": {
+          "attempts": 4,
+          "correct": 0,
+          "failed": 4,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 24,
+        "correct": 0,
+        "failed": 24,
+        "improved": 0,
+        "positive_terminal_trajectories": 2,
+        "regressed": 0,
+        "toward_gold_structure": 0
+      },
+      "parameterized_operation_and_bindings": "Compare row count and distinct entity count",
+      "risk": "Only the public instance is visible",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "projection": {
+      "applicability": "Output arity/order or headers disagree",
+      "contexts": {
+        "aggregate": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "arity": {
+          "attempts": 84,
+          "correct": 28,
+          "failed": 56,
+          "improved": 28,
+          "positive_terminal_trajectories": 31,
+          "regressed": 0,
+          "toward_gold_structure": 75
+        },
+        "column": {
+          "attempts": 124,
+          "correct": 4,
+          "failed": 120,
+          "improved": 4,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 54
+        },
+        "different": {
+          "attempts": 255,
+          "correct": 117,
+          "failed": 138,
+          "improved": 58,
+          "positive_terminal_trajectories": 86,
+          "regressed": 5,
+          "toward_gold_structure": 69
+        },
+        "syntax": {
+          "attempts": 4,
+          "correct": 0,
+          "failed": 4,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 4
+        },
+        "table": {
+          "attempts": 4,
+          "correct": 0,
+          "failed": 4,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 53,
+          "correct": 25,
+          "failed": 28,
+          "improved": 13,
+          "positive_terminal_trajectories": 13,
+          "regressed": 0,
+          "toward_gold_structure": 7
+        },
+        "nonempty": {
+          "attempts": 64,
+          "correct": 47,
+          "failed": 17,
+          "improved": 0,
+          "positive_terminal_trajectories": 25,
+          "regressed": 0,
+          "toward_gold_structure": 31
+        }
+      },
+      "outcomes": {
+        "attempts": 473,
+        "correct": 149,
+        "failed": 324,
+        "improved": 90,
+        "positive_terminal_trajectories": 119,
+        "regressed": 5,
+        "toward_gold_structure": 202
+      },
+      "parameterized_operation_and_bindings": "Bind public output expressions to in-scope columns; attach via FK if needed",
+      "risk": "Result headers may be aliases or share names",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "relationship": {
+      "applicability": "Join equality disagrees with the schema",
+      "contexts": {
+        "aligned": {
+          "attempts": 47,
+          "correct": 4,
+          "failed": 43,
+          "improved": 2,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "arity": {
+          "attempts": 12,
+          "correct": 0,
+          "failed": 12,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "column": {
+          "attempts": 51,
+          "correct": 6,
+          "failed": 45,
+          "improved": 6,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "different": {
+          "attempts": 5,
+          "correct": 0,
+          "failed": 5,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "table": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 20,
+          "correct": 0,
+          "failed": 20,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 2,
+          "correct": 2,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 117,
+        "correct": 10,
+        "failed": 107,
+        "improved": 8,
+        "positive_terminal_trajectories": 2,
+        "regressed": 0,
+        "toward_gold_structure": 0
+      },
+      "parameterized_operation_and_bindings": "Reconnect two scoped tables on a declared FK or short FK path",
+      "risk": "Schemas can have multiple legitimate relationships",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "reshape": {
+      "applicability": "The expected result refers to a specific top, grouped or ordered output",
+      "contexts": {
+        "aligned": {
+          "attempts": 21,
+          "correct": 10,
+          "failed": 11,
+          "improved": 10,
+          "positive_terminal_trajectories": 9,
+          "regressed": 2,
+          "toward_gold_structure": 15
+        },
+        "arity": {
+          "attempts": 14,
+          "correct": 4,
+          "failed": 10,
+          "improved": 4,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 10
+        },
+        "column": {
+          "attempts": 7,
+          "correct": 2,
+          "failed": 5,
+          "improved": 2,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 6
+        },
+        "different": {
+          "attempts": 8,
+          "correct": 2,
+          "failed": 6,
+          "improved": 2,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 2
+        }
+      },
+      "outcomes": {
+        "attempts": 50,
+        "correct": 18,
+        "failed": 32,
+        "improved": 18,
+        "positive_terminal_trajectories": 13,
+        "regressed": 2,
+        "toward_gold_structure": 31
+      },
+      "parameterized_operation_and_bindings": "Shift existing aggregate/column expression into ORDER or add correlated HAVING",
+      "risk": "Implicit order and tied ranks can differ",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "semi": {
+      "applicability": "Entity membership or negation across a join",
+      "contexts": {
+        "aligned": {
+          "attempts": 602,
+          "correct": 298,
+          "failed": 304,
+          "improved": 17,
+          "positive_terminal_trajectories": 89,
+          "regressed": 63,
+          "toward_gold_structure": 28
+        },
+        "arity": {
+          "attempts": 3,
+          "correct": 0,
+          "failed": 3,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "column": {
+          "attempts": 41,
+          "correct": 0,
+          "failed": 41,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 1
+        },
+        "different": {
+          "attempts": 18,
+          "correct": 2,
+          "failed": 16,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 219,
+          "correct": 113,
+          "failed": 106,
+          "improved": 0,
+          "positive_terminal_trajectories": 21,
+          "regressed": 1,
+          "toward_gold_structure": 4
+        },
+        "nonempty": {
+          "attempts": 212,
+          "correct": 179,
+          "failed": 33,
+          "improved": 9,
+          "positive_terminal_trajectories": 37,
+          "regressed": 15,
+          "toward_gold_structure": 10
+        }
+      },
+      "outcomes": {
+        "attempts": 664,
+        "correct": 300,
+        "failed": 364,
+        "improved": 17,
+        "positive_terminal_trajectories": 90,
+        "regressed": 63,
+        "toward_gold_structure": 29
+      },
+      "parameterized_operation_and_bindings": "Convert a qualifying leaf join to a correlated EXISTS or NOT EXISTS",
+      "risk": "An inner join may intentionally duplicate rows",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "set_logic": {
+      "applicability": "Two values are joined by both, either, or an exclusion",
+      "contexts": {
+        "aligned": {
+          "attempts": 28,
+          "correct": 8,
+          "failed": 20,
+          "improved": 1,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 17
+        },
+        "column": {
+          "attempts": 6,
+          "correct": 0,
+          "failed": 6,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 6
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 11,
+          "correct": 7,
+          "failed": 4,
+          "improved": 0,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 6
+        },
+        "nonempty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 34,
+        "correct": 8,
+        "failed": 26,
+        "improved": 1,
+        "positive_terminal_trajectories": 2,
+        "regressed": 0,
+        "toward_gold_structure": 23
+      },
+      "parameterized_operation_and_bindings": "Build set operations over the same projected entity",
+      "risk": "Distinct sets and row-level AND/OR can mean different things",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "single_relation": {
+      "applicability": "The requested projection and filters may live on one relation",
+      "contexts": {
+        "aligned": {
+          "attempts": 733,
+          "correct": 206,
+          "failed": 527,
+          "improved": 49,
+          "positive_terminal_trajectories": 241,
+          "regressed": 213,
+          "toward_gold_structure": 116
+        },
+        "arity": {
+          "attempts": 16,
+          "correct": 5,
+          "failed": 11,
+          "improved": 5,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 16
+        },
+        "column": {
+          "attempts": 83,
+          "correct": 27,
+          "failed": 56,
+          "improved": 27,
+          "positive_terminal_trajectories": 4,
+          "regressed": 0,
+          "toward_gold_structure": 27
+        },
+        "different": {
+          "attempts": 118,
+          "correct": 24,
+          "failed": 94,
+          "improved": 17,
+          "positive_terminal_trajectories": 3,
+          "regressed": 27,
+          "toward_gold_structure": 30
+        },
+        "table": {
+          "attempts": 7,
+          "correct": 4,
+          "failed": 3,
+          "improved": 4,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 2
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 200,
+          "correct": 42,
+          "failed": 158,
+          "improved": 3,
+          "positive_terminal_trajectories": 34,
+          "regressed": 46,
+          "toward_gold_structure": 10
+        },
+        "nonempty": {
+          "attempts": 201,
+          "correct": 128,
+          "failed": 73,
+          "improved": 3,
+          "positive_terminal_trajectories": 78,
+          "regressed": 38,
+          "toward_gold_structure": 44
+        }
+      },
+      "outcomes": {
+        "attempts": 957,
+        "correct": 266,
+        "failed": 691,
+        "improved": 102,
+        "positive_terminal_trajectories": 248,
+        "regressed": 240,
+        "toward_gold_structure": 191
+      },
+      "parameterized_operation_and_bindings": "Bind a frame to a schema relation and recreate transferable predicates",
+      "risk": "An unused-looking join may be part of the intended domain",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "skeleton": {
+      "applicability": "Simple requested columns or statistic on a table",
+      "contexts": {
+        "aggregate": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "aligned": {
+          "attempts": 1326,
+          "correct": 292,
+          "failed": 1034,
+          "improved": 31,
+          "positive_terminal_trajectories": 212,
+          "regressed": 495,
+          "toward_gold_structure": 275
+        },
+        "arity": {
+          "attempts": 20,
+          "correct": 6,
+          "failed": 14,
+          "improved": 6,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 14
+        },
+        "column": {
+          "attempts": 178,
+          "correct": 21,
+          "failed": 157,
+          "improved": 21,
+          "positive_terminal_trajectories": 4,
+          "regressed": 0,
+          "toward_gold_structure": 69
+        },
+        "different": {
+          "attempts": 97,
+          "correct": 28,
+          "failed": 69,
+          "improved": 20,
+          "positive_terminal_trajectories": 6,
+          "regressed": 14,
+          "toward_gold_structure": 28
+        },
+        "syntax": {
+          "attempts": 10,
+          "correct": 0,
+          "failed": 10,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "table": {
+          "attempts": 2,
+          "correct": 2,
+          "failed": 0,
+          "improved": 2,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 242,
+          "correct": 107,
+          "failed": 135,
+          "improved": 14,
+          "positive_terminal_trajectories": 14,
+          "regressed": 24,
+          "toward_gold_structure": 47
+        },
+        "nonempty": {
+          "attempts": 252,
+          "correct": 187,
+          "failed": 65,
+          "improved": 11,
+          "positive_terminal_trajectories": 70,
+          "regressed": 29,
+          "toward_gold_structure": 61
+        }
+      },
+      "outcomes": {
+        "attempts": 1635,
+        "correct": 349,
+        "failed": 1286,
+        "improved": 80,
+        "positive_terminal_trajectories": 222,
+        "regressed": 509,
+        "toward_gold_structure": 386
+      },
+      "parameterized_operation_and_bindings": "Construct a small SELECT with current-schema bindings and a retained applicable predicate",
+      "risk": "Dropping joins or clauses can lose constraints",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "transfer": {
+      "applicability": "A sibling branch has a relevant clause missing from this branch",
+      "contexts": {
+        "aligned": {
+          "attempts": 138,
+          "correct": 75,
+          "failed": 63,
+          "improved": 31,
+          "positive_terminal_trajectories": 34,
+          "regressed": 2,
+          "toward_gold_structure": 79
+        },
+        "arity": {
+          "attempts": 29,
+          "correct": 11,
+          "failed": 18,
+          "improved": 11,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 24
+        },
+        "column": {
+          "attempts": 37,
+          "correct": 6,
+          "failed": 31,
+          "improved": 6,
+          "positive_terminal_trajectories": 3,
+          "regressed": 0,
+          "toward_gold_structure": 13
+        },
+        "different": {
+          "attempts": 19,
+          "correct": 4,
+          "failed": 15,
+          "improved": 4,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 4
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 9,
+          "correct": 9,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 9
+        },
+        "nonempty": {
+          "attempts": 43,
+          "correct": 39,
+          "failed": 4,
+          "improved": 4,
+          "positive_terminal_trajectories": 18,
+          "regressed": 0,
+          "toward_gold_structure": 16
+        }
+      },
+      "outcomes": {
+        "attempts": 223,
+        "correct": 96,
+        "failed": 127,
+        "improved": 52,
+        "positive_terminal_trajectories": 38,
+        "regressed": 2,
+        "toward_gold_structure": 120
+      },
+      "parameterized_operation_and_bindings": "Transplant one compatible clause or projection between the same alias scopes",
+      "risk": "Locally compatible clauses can express different intent",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "value_probe": {
+      "applicability": "Plausible literal produces too few records",
+      "contexts": {
+        "aligned": {
+          "attempts": 42,
+          "correct": 0,
+          "failed": 42,
+          "improved": 0,
+          "positive_terminal_trajectories": 1,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "arity": {
+          "attempts": 2,
+          "correct": 0,
+          "failed": 2,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "different": {
+          "attempts": 3,
+          "correct": 0,
+          "failed": 3,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 47,
+        "correct": 0,
+        "failed": 47,
+        "improved": 0,
+        "positive_terminal_trajectories": 1,
+        "regressed": 0,
+        "toward_gold_structure": 0
+      },
+      "parameterized_operation_and_bindings": "Probe one current-schema field for alternative value spellings",
+      "risk": "The diagnostic is limited to one field and may prove inconclusive",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    },
+    "value_repair": {
+      "applicability": "A public diagnostic found an alternative encoding",
+      "contexts": {
+        "aligned": {
+          "attempts": 3,
+          "correct": 1,
+          "failed": 2,
+          "improved": 1,
+          "positive_terminal_trajectories": 2,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "matched_parent": {
+        "empty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        },
+        "nonempty": {
+          "attempts": 0,
+          "correct": 0,
+          "failed": 0,
+          "improved": 0,
+          "positive_terminal_trajectories": 0,
+          "regressed": 0,
+          "toward_gold_structure": 0
+        }
+      },
+      "outcomes": {
+        "attempts": 3,
+        "correct": 1,
+        "failed": 2,
+        "improved": 1,
+        "positive_terminal_trajectories": 2,
+        "regressed": 0,
+        "toward_gold_structure": 0
+      },
+      "parameterized_operation_and_bindings": "Replace only the inspected literal in its checked parent",
+      "risk": "A value matching the public instance may not match the intended predicate elsewhere",
+      "source": "official train draft, reference SQL shapes, hint actions, and execution traces"
+    }
+  },
+  "tasks": 480,
+  "training_bank_sha256": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65"
+}

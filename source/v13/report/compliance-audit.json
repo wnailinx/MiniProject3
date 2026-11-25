@@ -1,0 +1,88 @@
+{
+  "scope": "Technical design and recorded executions against the supplied specification; not instructor verification or administrative submission.",
+  "specification_sha256": "b8f8a8ae38a8eedf32cc888a012103b4b4995b6b3e72dd2d05ac8b966d1af64d",
+  "technical_checks": {
+    "official_package_manifest_matches": true,
+    "original_base_and_tokenizer_match_recorded_hashes": true,
+    "frozen_inference_sources_unchanged": true,
+    "selected_configuration_matches_pretest_freeze": true,
+    "agent_factory_and_action_interface_present": true,
+    "exact_original_checked_before_hint": true,
+    "eight_charged_calls_respected": true,
+    "no_repeated_identical_actions": true,
+    "sql_byte_limit_respected": true,
+    "no_direct_database_or_network_api_in_inference_source_scan": true,
+    "approved_base_repository_and_revision": true,
+    "only_lora_A_B_weights": true,
+    "no_bias_or_modules_to_save": true,
+    "under_one_billion_actual_model_parameters": true,
+    "adapter_matches_frozen_identity": true,
+    "completion_limits_respected": true,
+    "required_generation_log_fields_present": true,
+    "offline_loading_flags_present": true,
+    "cpu_reproduction_budget_respected": true,
+    "all_240_tasks_official_score_197": true,
+    "prediction_score_sha_matches": true,
+    "all_240_predictions_traces_and_scores_reproduced": true,
+    "at_least_two_controlled_ablations_recorded": true
+  },
+  "technical_checks_passed": true,
+  "official_manifest": {
+    "files_checked": 497,
+    "mismatches": []
+  },
+  "base_mismatches": [],
+  "source_mismatches": [],
+  "inference_io_scan_matches": [],
+  "observed_limits": {
+    "tasks": 240,
+    "max_charged_calls": 8,
+    "duplicate_action_tasks": 0,
+    "max_sql_utf8_bytes": 1739,
+    "tool_counts": {
+      "check": 1083,
+      "repair_hint": 240,
+      "schema": 240,
+      "execute": 2
+    },
+    "mean_charged_calls": 6.520833333333333,
+    "completions": 19,
+    "max_completions_per_task": 1,
+    "max_generated_tokens": 70,
+    "configured_new_token_cap": 384,
+    "teacher_forced_candidate_scores": 581,
+    "teacher_forced_tasks": 160,
+    "max_forward_scoring_plus_generation_requests_per_task": 6,
+    "actual_total_model_parameters": 599719936,
+    "lora_parameters": 3670016,
+    "lora_tensors": 168
+  },
+  "data_provenance": {
+    "training_split_only": true,
+    "sources_sha256": {
+      "MP3_SQL_student_package/mp3_sql/data/train.jsonl": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65",
+      "MP3_SQL_student_package/mp3_sql/data/train_memory.jsonl": "25dced1001defe1d96b87e67eb007a106a3b96ac57d0bd76988a0ee63ee563d2",
+      "outputs/v8/train-stats/train.json": "aa3b62ff24a46e04ee7db24d82a180e2b19c4a0d54d20f21043a6e85346a01a0",
+      "outputs/v13/features-train.jsonl": "d0031e33b30460e98dab75fd55c72f0491b79590bf7a8e05bb4a6f7a04ab3685",
+      "v13/training/train-labelled.json": "4a2e7f115425b517c5ca3cd371983a50d3d47d0ff9e7191f993a5d7c3f3a8e48",
+      "v13/fit.py": "388b735d716d173fa8295ecc0bb849bf0246d9c21ef8cd723ad53cc24c0c1dac"
+    },
+    "note": "LoRA targets use train_memory.gold_sql; rank labels use three TRAIN instances. Validation selects hyperparameters only. No test labels enter fitting."
+  },
+  "evidence": {
+    "pretest_freeze": "v13/records/freeze.json",
+    "official_score": "outputs/v13/final/test-score.json",
+    "independent_zip_reproduction": "outputs/round-13-15-delivery/reproduction.json"
+  },
+  "administrative_steps_remaining": [
+    "Fill student ID in the course form",
+    "Host immutable source/report ZIP and two-file adapter ZIP over HTTPS",
+    "Upload complete official test-score JSON, prepare submission and actually create the GitHub issue",
+    "Keep artifacts accessible through grading"
+  ],
+  "disclosures_required_in_report": [
+    "Codex assistance",
+    "Official benchmark / Qwen / SQLGlot data and software sources",
+    "Exact LoRA training and measured CPU/model/tool costs"
+  ]
+}

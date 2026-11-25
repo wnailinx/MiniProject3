@@ -1,0 +1,71 @@
+{
+  "train_tasks": 360,
+  "features": 47,
+  "training_pairs": 524,
+  "oof": [
+    {
+      "regularization": 0.01,
+      "oof_correct": 305
+    },
+    {
+      "regularization": 0.1,
+      "oof_correct": 308
+    },
+    {
+      "regularization": 1.0,
+      "oof_correct": 306
+    }
+  ],
+  "validation_margin_selection": [
+    {
+      "margin": 0.0,
+      "fixes": 0,
+      "regressions": 4,
+      "changed": 11
+    },
+    {
+      "margin": 0.25,
+      "fixes": 0,
+      "regressions": 4,
+      "changed": 8
+    },
+    {
+      "margin": 0.5,
+      "fixes": 0,
+      "regressions": 3,
+      "changed": 7
+    },
+    {
+      "margin": 1.0,
+      "fixes": 0,
+      "regressions": 1,
+      "changed": 3
+    },
+    {
+      "margin": 2.0,
+      "fixes": 0,
+      "regressions": 0,
+      "changed": 0
+    },
+    {
+      "margin": 4.0,
+      "fixes": 0,
+      "regressions": 0,
+      "changed": 0
+    },
+    {
+      "margin": 8.0,
+      "fixes": 0,
+      "regressions": 0,
+      "changed": 0
+    }
+  ],
+  "selected": {
+    "margin": 2.0,
+    "fixes": 0,
+    "regressions": 0,
+    "changed": 0
+  },
+  "lora_has_seen_train_targets": true,
+  "test_labels_used": false
+}

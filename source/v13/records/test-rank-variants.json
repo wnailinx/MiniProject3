@@ -1,0 +1,23 @@
+[
+  {
+    "name": "margin-1.5",
+    "margin": 1.5,
+    "correct": 197,
+    "changed_from_primary": 3,
+    "evaluation": "fixed real paid/model trajectory; global final-selection gate"
+  },
+  {
+    "name": "margin-2.0",
+    "margin": 2.0,
+    "correct": 197,
+    "changed_from_primary": 0,
+    "evaluation": "fixed real paid/model trajectory; global final-selection gate"
+  },
+  {
+    "name": "margin-3.0",
+    "margin": 3.0,
+    "correct": 194,
+    "changed_from_primary": 6,
+    "evaluation": "fixed real paid/model trajectory; global final-selection gate"
+  }
+]

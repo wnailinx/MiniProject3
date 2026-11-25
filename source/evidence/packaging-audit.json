@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "sql-agent-source.zip_sha256": true,
+    "qwen3-adapter.zip_sha256": true,
+    "source_limit": true,
+    "no_base_or_adapter_weights_in_source": true,
+    "safe_paths": true,
+    "all_frozen_runtime_files": true,
+    "score_prediction_sha256": true,
+    "official_result_197": true,
+    "exactly_two_adapter_files": true,
+    "lora_only_configuration": true,
+    "only_lora_A_B_tensors": true,
+    "adapter_parameters_match": true
+  },
+  "adapter_tensors": 168,
+  "adapter_parameters": 3670016,
+  "total_model_parameters": 599719936,
+  "zip_files_unchanged": true
+}

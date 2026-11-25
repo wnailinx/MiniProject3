@@ -1,0 +1,25 @@
+{
+  "method": "minimum cross-database train holdout target-token loss",
+  "selected_epochs": 1,
+  "candidates": [
+    {
+      "epoch": 1,
+      "checkpoint": "C:\\Users\\Neil Wang\\Desktop\\Material\\7506\\Mp3\\outputs\\v10\\training\\initial\\epoch-1",
+      "held_loss": 0.36413672002087727,
+      "seconds": 346.8643830000001
+    },
+    {
+      "epoch": 2,
+      "checkpoint": "C:\\Users\\Neil Wang\\Desktop\\Material\\7506\\Mp3\\outputs\\v10\\training\\initial\\epoch-2",
+      "held_loss": 0.4238272009528067,
+      "seconds": 686.7906286000002
+    },
+    {
+      "epoch": 3,
+      "checkpoint": "C:\\Users\\Neil Wang\\Desktop\\Material\\7506\\Mp3\\outputs\\v10\\training\\initial\\epoch-3",
+      "held_loss": 0.5453103951049973,
+      "seconds": 1008.0792068999999
+    }
+  ],
+  "test_used": false
+}

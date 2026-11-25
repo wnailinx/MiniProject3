@@ -1,0 +1,15 @@
+{
+  "tasks": 480,
+  "examples": 1275,
+  "databases": 118,
+  "source_sha256": {
+    "MP3_SQL_student_package\\mp3_sql\\data\\train.jsonl": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65",
+    "MP3_SQL_student_package\\mp3_sql\\data\\train_memory.jsonl": "25dced1001defe1d96b87e67eb007a106a3b96ac57d0bd76988a0ee63ee563d2",
+    "MP3_SQL_student_package\\mp3_sql\\data\\manifest.json": "bf7a517249ebe31b9cad8cbf5d6598fde98316d89f9aa1172cae3ad83289a6bc",
+    "outputs\\v8\\train-stats\\train.json": "aa3b62ff24a46e04ee7db24d82a180e2b19c4a0d54d20f21043a6e85346a01a0"
+  },
+  "split": "train",
+  "target_source": "official train_memory.gold_sql",
+  "external_training_data": false,
+  "peer_code_or_weights_used": false
+}

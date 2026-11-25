@@ -1,0 +1,74 @@
+{
+  "bank_sha256": "562d6d54cbfac83829cf528a3b8ca5f101994c9fe5b1a502519beba328900f65",
+  "families": {
+    "group": {
+      "cues": {
+        "count": 56,
+        "distinct": 7,
+        "group": 26,
+        "rank": 55,
+        "threshold": 28,
+        "union": 3
+      },
+      "databases": 81,
+      "draft_different": 65,
+      "examples": 118,
+      "operators": {
+        "Count": 107,
+        "Distinct": 3,
+        "Group": 118,
+        "Having": 33,
+        "Join": 66,
+        "Limit": 52,
+        "Order": 59
+      }
+    },
+    "join": {
+      "cues": {
+        "absence": 3,
+        "count": 23,
+        "distinct": 4,
+        "group": 10,
+        "rank": 5,
+        "threshold": 5,
+        "union": 8
+      },
+      "databases": 75,
+      "draft_different": 34,
+      "examples": 112,
+      "operators": {
+        "Count": 12,
+        "Distinct": 13,
+        "Join": 112,
+        "Limit": 4,
+        "Order": 11
+      }
+    },
+    "set": {
+      "cues": {
+        "absence": 31,
+        "both": 9,
+        "count": 3,
+        "rank": 3,
+        "threshold": 5,
+        "union": 5
+      },
+      "databases": 46,
+      "draft_different": 32,
+      "examples": 49,
+      "operators": {
+        "Count": 4,
+        "Distinct": 1,
+        "Except": 17,
+        "Group": 3,
+        "Having": 2,
+        "Intersect": 10,
+        "Join": 11,
+        "Limit": 1,
+        "Not": 16,
+        "Order": 1,
+        "Union": 6
+      }
+    }
+  }
+}

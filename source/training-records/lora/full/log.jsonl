@@ -1,0 +1,17 @@
+{"epoch": 1, "step": 10, "loss": 1.5374087274074555, "seconds": 28.510725600000114, "peak_cuda_mib": 3854.224609375}
+{"epoch": 1, "step": 20, "loss": 0.7337759959511458, "seconds": 52.2680077, "peak_cuda_mib": 3953.5302734375}
+{"epoch": 1, "step": 30, "loss": 0.4258365348447114, "seconds": 83.7507541, "peak_cuda_mib": 4288.08935546875}
+{"epoch": 1, "step": 40, "loss": 0.38419167932588605, "seconds": 108.25821959999985, "peak_cuda_mib": 4288.08935546875}
+{"epoch": 1, "step": 50, "loss": 0.3231149417813867, "seconds": 131.73242609999988, "peak_cuda_mib": 4288.08935546875}
+{"epoch": 1, "step": 60, "loss": 0.33567084176465867, "seconds": 157.09030780000012, "peak_cuda_mib": 4288.08935546875}
+{"epoch": 1, "step": 70, "loss": 0.2936381943058223, "seconds": 180.69843020000008, "peak_cuda_mib": 4288.08935546875}
+{"epoch": 1, "step": 80, "loss": 0.2679296291898936, "seconds": 203.57112749999987, "peak_cuda_mib": 4288.08935546875}
+{"epoch": 1, "step": 90, "loss": 0.2434432583162561, "seconds": 229.58270219999986, "peak_cuda_mib": 4317.548828125}
+{"epoch": 1, "step": 100, "loss": 0.22565584746771492, "seconds": 251.99892910000017, "peak_cuda_mib": 4317.548828125}
+{"epoch": 1, "step": 110, "loss": 0.2251805006992072, "seconds": 314.9090664999999, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 120, "loss": 0.19989682994782926, "seconds": 392.71910990000015, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 130, "loss": 0.2465983432950452, "seconds": 462.2795498999999, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 140, "loss": 0.18076629543211312, "seconds": 534.5657019, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 150, "loss": 0.20711090529803186, "seconds": 594.3774291999998, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 160, "loss": 0.14135656389097373, "seconds": 659.7841598, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "checkpoint": "C:\\Users\\Neil Wang\\Desktop\\Material\\7506\\Mp3\\outputs\\v10\\training\\full\\epoch-1", "held_loss": null, "seconds": 659.8799954000001}

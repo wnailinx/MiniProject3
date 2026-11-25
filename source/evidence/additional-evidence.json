@@ -1,0 +1,63 @@
+{
+  "purpose": "Post-evaluation explanation and train-data audit, never read by the agent or used to change the frozen model",
+  "train_sources_sha256": {
+    "outputs/v13/features-train.jsonl": "d0031e33b30460e98dab75fd55c72f0491b79590bf7a8e05bb4a6f7a04ab3685",
+    "v13/training/train-labelled.json": "4a2e7f115425b517c5ca3cd371983a50d3d47d0ff9e7191f993a5d7c3f3a8e48",
+    "outputs/v8/train-stats/train.json": "aa3b62ff24a46e04ee7db24d82a180e2b19c4a0d54d20f21043a6e85346a01a0",
+    "v13/fit.py": "388b735d716d173fa8295ecc0bb849bf0246d9c21ef8cd723ad53cc24c0c1dac"
+  },
+  "ranking_training_environment": {
+    "numpy": "2.5.3",
+    "sqlglot": "27.29.0"
+  },
+  "three_new_correct_rank_margins": [
+    {
+      "id": "test-1e07a43ae53c765a",
+      "score_advantage": 2.5799752583624045,
+      "neural_features_contribution": -0.32863459494687486,
+      "other_features_contribution": 2.908609853309279,
+      "largest_contributions": {
+        "hint_support": 1.2348648032496872,
+        "incumbent": -0.8628072045707516,
+        "nodes:Select": 0.5742225396091712,
+        "nodes:In": 0.5721260411936975,
+        "has:having": 0.5333336522594311,
+        "nodes:Join": 0.33773110755451796,
+        "lm_sum": -0.23907079039809737,
+        "original": 0.167562496735408
+      }
+    },
+    {
+      "id": "test-b347bdf78d8ca898",
+      "score_advantage": 2.9800061694427846,
+      "neural_features_contribution": 0.08396940588345038,
+      "other_features_contribution": 2.896036763559334,
+      "largest_contributions": {
+        "hint_support": 1.2348648032496872,
+        "incumbent": -0.8628072045707516,
+        "nodes:Select": 0.5742225396091712,
+        "nodes:In": 0.5721260411936975,
+        "has:having": 0.5333336522594311,
+        "nodes:Join": 0.33773110755451796,
+        "original": 0.167562496735408,
+        "has:where": 0.13809037540517005
+      }
+    },
+    {
+      "id": "test-469f22a3a541ed03",
+      "score_advantage": 2.718632823097842,
+      "neural_features_contribution": -0.12086139308978915,
+      "other_features_contribution": 2.839494216187631,
+      "largest_contributions": {
+        "hint_support": 1.2348648032496872,
+        "incumbent": -0.8628072045707516,
+        "nodes:Select": 0.5742225396091712,
+        "nodes:In": 0.5721260411936975,
+        "has:having": 0.5333336522594311,
+        "nodes:Join": 0.33773110755451796,
+        "original": 0.167562496735408,
+        "has:where": 0.13809037540517005
+      }
+    }
+  ]
+}

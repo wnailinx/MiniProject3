@@ -1,0 +1,43 @@
+{"epoch": 1, "step": 10, "loss": 1.757153650186956, "seconds": 22.29221480000001, "peak_cuda_mib": 4063.14306640625}
+{"epoch": 1, "step": 20, "loss": 0.9516036650165915, "seconds": 45.76848199999995, "peak_cuda_mib": 4317.548828125}
+{"epoch": 1, "step": 30, "loss": 0.582090368680656, "seconds": 69.56342470000004, "peak_cuda_mib": 4317.548828125}
+{"epoch": 1, "step": 40, "loss": 0.37631589055527004, "seconds": 92.22913949999997, "peak_cuda_mib": 4317.548828125}
+{"epoch": 1, "step": 50, "loss": 0.3678584126755595, "seconds": 116.92020040000011, "peak_cuda_mib": 4317.548828125}
+{"epoch": 1, "step": 60, "loss": 0.2712677725357935, "seconds": 142.59476289999998, "peak_cuda_mib": 4317.548828125}
+{"epoch": 1, "step": 70, "loss": 0.28567525250837206, "seconds": 170.26771710000003, "peak_cuda_mib": 4322.947265625}
+{"epoch": 1, "step": 80, "loss": 0.2587021495739464, "seconds": 193.49527390000003, "peak_cuda_mib": 4322.947265625}
+{"epoch": 1, "step": 90, "loss": 0.2861638685397338, "seconds": 228.34091749999993, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 100, "loss": 0.2602552455267869, "seconds": 250.3245898, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 110, "loss": 0.2574167831568047, "seconds": 274.2330686, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 120, "loss": 0.22698857729556038, "seconds": 298.29210479999983, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "step": 130, "loss": 0.18085144234355538, "seconds": 321.9650227000002, "peak_cuda_mib": 4948.025390625}
+{"epoch": 1, "checkpoint": "C:\\Users\\Neil Wang\\Desktop\\Material\\7506\\Mp3\\outputs\\v10\\training\\initial\\epoch-1", "held_loss": 0.36413672002087727, "seconds": 346.8643830000001}
+{"epoch": 2, "step": 140, "loss": 0.11430026287562214, "seconds": 359.57228510000004, "peak_cuda_mib": 4948.025390625}
+{"epoch": 2, "step": 150, "loss": 0.1387040247092955, "seconds": 384.9822161000002, "peak_cuda_mib": 4948.025390625}
+{"epoch": 2, "step": 160, "loss": 0.12066812939592637, "seconds": 410.3767759000002, "peak_cuda_mib": 4948.025390625}
+{"epoch": 2, "step": 170, "loss": 0.11278078118339181, "seconds": 437.4956935, "peak_cuda_mib": 4948.025390625}
+{"epoch": 2, "step": 180, "loss": 0.09475971277133795, "seconds": 463.6483167000001, "peak_cuda_mib": 4948.025390625}
+{"epoch": 2, "step": 190, "loss": 0.12459844151890138, "seconds": 490.9558726, "peak_cuda_mib": 4948.025390625}
+{"epoch": 2, "step": 200, "loss": 0.10199825834133662, "seconds": 519.7200851000002, "peak_cuda_mib": 4948.025390625}
+{"epoch": 2, "step": 210, "loss": 0.11292658211605158, "seconds": 547.1870011000001, "peak_cuda_mib": 4948.826171875}
+{"epoch": 2, "step": 220, "loss": 0.09194479232828598, "seconds": 574.6850113999999, "peak_cuda_mib": 4948.826171875}
+{"epoch": 2, "step": 230, "loss": 0.09603446562541648, "seconds": 595.772704, "peak_cuda_mib": 4948.826171875}
+{"epoch": 2, "step": 240, "loss": 0.09121051872352837, "seconds": 615.735764, "peak_cuda_mib": 4948.826171875}
+{"epoch": 2, "step": 250, "loss": 0.0716480282804696, "seconds": 635.8588370000002, "peak_cuda_mib": 4948.826171875}
+{"epoch": 2, "step": 260, "loss": 0.0731441671909124, "seconds": 655.6650199000001, "peak_cuda_mib": 4948.826171875}
+{"epoch": 2, "step": 270, "loss": 0.07662522266116567, "seconds": 674.7209553000002, "peak_cuda_mib": 4948.826171875}
+{"epoch": 2, "checkpoint": "C:\\Users\\Neil Wang\\Desktop\\Material\\7506\\Mp3\\outputs\\v10\\training\\initial\\epoch-2", "held_loss": 0.4238272009528067, "seconds": 686.7906286000002}
+{"epoch": 3, "step": 280, "loss": 0.06267334502626909, "seconds": 707.3192193, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 290, "loss": 0.043806680804118515, "seconds": 726.9603539, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 300, "loss": 0.04206553558833548, "seconds": 747.5776464999999, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 310, "loss": 0.04012783823955033, "seconds": 770.7784646999999, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 320, "loss": 0.04201348480055458, "seconds": 795.0591379000002, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 330, "loss": 0.033152366948343115, "seconds": 819.3669031, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 340, "loss": 0.026516939008433837, "seconds": 844.1837082000002, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 350, "loss": 0.03933565138468111, "seconds": 870.3367315999999, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 360, "loss": 0.03185228943984839, "seconds": 895.3426985000001, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 370, "loss": 0.03417738190437376, "seconds": 917.9206217999999, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 380, "loss": 0.03795949959021527, "seconds": 942.1357711999999, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 390, "loss": 0.021531920122288283, "seconds": 964.5085104999998, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "step": 400, "loss": 0.025984985100876656, "seconds": 985.4312002000001, "peak_cuda_mib": 4948.826171875}
+{"epoch": 3, "checkpoint": "C:\\Users\\Neil Wang\\Desktop\\Material\\7506\\Mp3\\outputs\\v10\\training\\initial\\epoch-3", "held_loss": 0.5453103951049973, "seconds": 1008.0792068999999}

@@ -1,0 +1,10 @@
+{
+  "previous_correct": 194,
+  "correct": 197,
+  "fixes": 3,
+  "regressions": 0,
+  "changed_final_sql": 6,
+  "same_all_real_paid_traces": true,
+  "threshold_selected_on_validation_before_test": true,
+  "same_original_generation_prompts_text_tokens": true
+}
